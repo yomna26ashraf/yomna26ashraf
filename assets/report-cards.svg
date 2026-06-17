@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 330" role="img" aria-label="Data report cards — rows cleaned, dashboards shipped, model accuracy">
+  <defs>
+    <linearGradient id="rcLine" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffb38a"/>
+      <stop offset="100%" stop-color="#ff5fa2"/>
+    </linearGradient>
+    <linearGradient id="rcArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8fc0" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ff8fc0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="rcBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#b79cff"/>
+      <stop offset="100%" stop-color="#8fd0ff"/>
+    </linearGradient>
+    <linearGradient id="rcRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb38a"/>
+      <stop offset="60%" stop-color="#ff5fa2"/>
+      <stop offset="100%" stop-color="#b79cff"/>
+    </linearGradient>
+    <filter id="rcShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#ff9ec7" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <!-- ===== CARD 1 — line chart draws itself ===== -->
+  <g transform="translate(20,30)">
+    <rect width="340" height="270" rx="20" fill="#ffffff" stroke="#ffe0ee" stroke-width="1.5" filter="url(#rcShadow)"/>
+    <rect x="22" y="20" width="150" height="26" rx="13" fill="#ffeef6"/>
+    <text x="36" y="38" font-family="'Segoe UI',Verdana,sans-serif" font-size="12.5" font-weight="800" fill="#ff5fa2">DATA · CLEANED</text>
+    <text x="22" y="92" font-family="'Segoe UI',Verdana,sans-serif" font-size="40" font-weight="800" fill="#7a4d68">50K<tspan font-size="20" fill="#ff5fa2">+</tspan></text>
+    <text x="24" y="112" font-family="'Segoe UI',Verdana,sans-serif" font-size="12" fill="#9a6f88">messy rows → decision-ready</text>
+    <!-- gridlines -->
+    <g stroke="#f4e4ee" stroke-width="1">
+      <line x1="22" y1="150" x2="318" y2="150"/><line x1="22" y1="190" x2="318" y2="190"/><line x1="22" y1="230" x2="318" y2="230"/>
+    </g>
+    <!-- area + line -->
+    <path d="M28,232 L78,210 L128,222 L178,178 L228,196 L278,150 L312,138 L312,250 L28,250 Z" fill="url(#rcArea)" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="1.4s" fill="freeze"/>
+    </path>
+    <path d="M28,232 L78,210 L128,222 L178,178 L228,196 L278,150 L312,138" fill="none"
+          stroke="url(#rcLine)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="420" stroke-dashoffset="420">
+      <animate attributeName="stroke-dashoffset" from="420" to="0" dur="1.5s" begin="0.3s" fill="freeze"/>
+    </path>
+    <g fill="#ffffff" stroke="#ff5fa2" stroke-width="2.4">
+      <circle cx="178" cy="178" r="0"><animate attributeName="r" from="0" to="4.5" dur="0.3s" begin="1.2s" fill="freeze"/></circle>
+      <circle cx="312" cy="138" r="0"><animate attributeName="r" from="0" to="5" dur="0.3s" begin="1.7s" fill="freeze"/></circle>
+    </g>
+  </g>
+
+  <!-- ===== CARD 2 — bars grow ===== -->
+  <g transform="translate(390,30)">
+    <rect width="340" height="270" rx="20" fill="#ffffff" stroke="#eee6ff" stroke-width="1.5" filter="url(#rcShadow)"/>
+    <rect x="22" y="20" width="178" height="26" rx="13" fill="#f1ecff"/>
+    <text x="36" y="38" font-family="'Segoe UI',Verdana,sans-serif" font-size="12.5" font-weight="800" fill="#7c5cff">PIPELINE · IMPACT</text>
+    <text x="22" y="92" font-family="'Segoe UI',Verdana,sans-serif" font-size="40" font-weight="800" fill="#7a4d68">5<tspan font-size="20" fill="#7c5cff">+</tspan></text>
+    <text x="24" y="112" font-family="'Segoe UI',Verdana,sans-serif" font-size="12" fill="#9a6f88">dashboards shipped · +15% efficiency</text>
+    <line x1="22" y1="250" x2="318" y2="250" stroke="#ece3f6" stroke-width="2"/>
+    <!-- bars: baseline y=250 -->
+    <g>
+      <rect x="40"  y="250" width="38" height="0" rx="8" fill="url(#rcBar)"><animate attributeName="height" from="0" to="78"  dur="0.7s" begin="0.5s" fill="freeze"/><animate attributeName="y" from="250" to="172" dur="0.7s" begin="0.5s" fill="freeze"/></rect>
+      <rect x="98"  y="250" width="38" height="0" rx="8" fill="url(#rcBar)"><animate attributeName="height" from="0" to="106" dur="0.7s" begin="0.7s" fill="freeze"/><animate attributeName="y" from="250" to="144" dur="0.7s" begin="0.7s" fill="freeze"/></rect>
+      <rect x="156" y="250" width="38" height="0" rx="8" fill="url(#rcBar)"><animate attributeName="height" from="0" to="88"  dur="0.7s" begin="0.9s" fill="freeze"/><animate attributeName="y" from="250" to="162" dur="0.7s" begin="0.9s" fill="freeze"/></rect>
+      <rect x="214" y="250" width="38" height="0" rx="8" fill="url(#rcBar)"><animate attributeName="height" from="0" to="130" dur="0.7s" begin="1.1s" fill="freeze"/><animate attributeName="y" from="250" to="120" dur="0.7s" begin="1.1s" fill="freeze"/></rect>
+      <rect x="272" y="250" width="38" height="0" rx="8" fill="url(#rcBar)"><animate attributeName="height" from="0" to="150" dur="0.7s" begin="1.3s" fill="freeze"/><animate attributeName="y" from="250" to="100" dur="0.7s" begin="1.3s" fill="freeze"/></rect>
+    </g>
+    <!-- sparkle on top of last bar -->
+    <path d="M291,92 l3,7 l7,3 l-7,3 l-3,7 l-3,-7 l-7,-3 l7,-3 Z" fill="#ffd87a" opacity="0">
+      <animate attributeName="opacity" values="0;1;0.6;1" dur="2s" begin="1.9s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- ===== CARD 3 — accuracy ring fills ===== -->
+  <g transform="translate(760,30)">
+    <rect width="340" height="270" rx="20" fill="#ffffff" stroke="#ffe7da" stroke-width="1.5" filter="url(#rcShadow)"/>
+    <rect x="22" y="20" width="172" height="26" rx="13" fill="#fff0e6"/>
+    <text x="36" y="38" font-family="'Segoe UI',Verdana,sans-serif" font-size="12.5" font-weight="800" fill="#ff8a4c">MODEL · ACCURACY</text>
+    <g transform="translate(170,168)">
+      <circle r="70" fill="none" stroke="#f3e8ef" stroke-width="16"/>
+      <circle r="70" fill="none" stroke="url(#rcRing)" stroke-width="16" stroke-linecap="round"
+              transform="rotate(-90)" stroke-dasharray="439.8" stroke-dashoffset="439.8">
+        <animate attributeName="stroke-dashoffset" from="439.8" to="2.6" dur="1.8s" begin="0.6s" fill="freeze"/>
+      </circle>
+      <text x="0" y="2" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif" font-size="34" font-weight="800" fill="#7a4d68">99.4<tspan font-size="16" fill="#ff8a4c">%</tspan></text>
+      <text x="0" y="26" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif" font-size="11.5" fill="#9a6f88">graduation model</text>
+    </g>
+  </g>
+</svg>

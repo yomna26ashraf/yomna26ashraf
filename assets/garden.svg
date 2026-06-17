@@ -1,0 +1,404 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 460" role="img" aria-label="Skill garden — every flower is a tool Yomna builds with">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff6fc"/>
+      <stop offset="55%" stop-color="#fdeefb"/>
+      <stop offset="100%" stop-color="#eef7f0"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dff3e2"/>
+      <stop offset="100%" stop-color="#cfeccf"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="100%" stop-color="#ffd87a"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1120" height="460" rx="22" fill="url(#sky)"/>
+
+  <!-- sun with rotating rays -->
+  <g transform="translate(1028,78)">
+    <g stroke="#ffe39b" stroke-width="4" stroke-linecap="round">
+      <g>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="40s" repeatCount="indefinite"/>
+        <line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(0)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(30)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(60)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(90)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(120)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(150)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(180)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(210)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(240)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(270)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(300)"/><line x1="0" y1="-44" x2="0" y2="-56" transform="rotate(330)"/>
+      </g>
+    </g>
+    <circle r="34" fill="url(#sun)"/>
+    <circle r="34" fill="none" stroke="#fff" stroke-opacity="0.5" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.9" transform="translate(220,70) scale(1.0)">
+    <animateTransform attributeName="transform" additive="sum" type="translate" values="0,0;40,0;0,0" dur="26s" begin="0s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="0" rx="34" ry="18" fill="#ffffff"/>
+    <ellipse cx="26" cy="6" rx="26" ry="15" fill="#ffffff"/>
+    <ellipse cx="-24" cy="6" rx="22" ry="13" fill="#fdf2fb"/>
+  </g>
+  <g opacity="0.9" transform="translate(620,46) scale(0.8)">
+    <animateTransform attributeName="transform" additive="sum" type="translate" values="0,0;40,0;0,0" dur="32s" begin="4s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="0" rx="34" ry="18" fill="#ffffff"/>
+    <ellipse cx="26" cy="6" rx="26" ry="15" fill="#ffffff"/>
+    <ellipse cx="-24" cy="6" rx="22" ry="13" fill="#fdf2fb"/>
+  </g>
+  <g opacity="0.9" transform="translate(940,82) scale(0.9)">
+    <animateTransform attributeName="transform" additive="sum" type="translate" values="0,0;40,0;0,0" dur="29s" begin="9s" repeatCount="indefinite"/>
+    <ellipse cx="0" cy="0" rx="34" ry="18" fill="#ffffff"/>
+    <ellipse cx="26" cy="6" rx="26" ry="15" fill="#ffffff"/>
+    <ellipse cx="-24" cy="6" rx="22" ry="13" fill="#fdf2fb"/>
+  </g>
+
+  <!-- ground -->
+  <path d="M0,372 Q560.0,346 1120,372 L1120,460 L0,460 Z" fill="url(#grass)"/>
+  <path d="M0,372 Q560.0,346 1120,372" fill="none" stroke="#bfe5c4" stroke-width="3"/>
+
+  <g transform="translate(160,352)">
+    <path d="M0,2 C0,-3 -7,-3 -7,2 C-7,7 0,10 0,13 C0,10 7,7 7,2 C7,-3 0,-3 0,2 Z" fill="#ff8fc0" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="5s" begin="0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,-120" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(520,352)">
+    <path d="M0,2 C0,-3 -7,-3 -7,2 C-7,7 0,10 0,13 C0,10 7,7 7,2 C7,-3 0,-3 0,2 Z" fill="#b79cff" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="5s" begin="2.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,-120" dur="5s" begin="2.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(860,352)">
+    <path d="M0,2 C0,-3 -7,-3 -7,2 C-7,7 0,10 0,13 C0,10 7,7 7,2 C7,-3 0,-3 0,2 Z" fill="#ffb38a" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="5s" begin="1.2s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,-120" dur="5s" begin="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <g transform="translate(1010,352)">
+    <path d="M0,2 C0,-3 -7,-3 -7,2 C-7,7 0,10 0,13 C0,10 7,7 7,2 C7,-3 0,-3 0,2 Z" fill="#ff7eb6" opacity="0">
+      <animate attributeName="opacity" values="0;0.9;0" dur="5s" begin="3.0s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0;6,-120" dur="5s" begin="3.0s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- flower: SQL -->
+  <g>
+    <!-- stem grows -->
+    <path d="M80,372 C94,293.6 66,234.8 80,176" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="245" stroke-dashoffset="245">
+      <animate attributeName="stroke-dashoffset" from="245" to="0" dur="0.8s" begin="0.00s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="106" cy="284" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 106 284)"/>
+      <ellipse cx="54" cy="239" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 54 239)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.50s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(80,176)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;3.2;0;-3.2;0" dur="4.2s" begin="0.90s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="0.70s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff8fc0" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ffd87a"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="34" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#ff8fc0" stroke-width="1.6"/>
+      <text x="80" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">SQL</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.00s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: Python -->
+  <g>
+    <!-- stem grows -->
+    <path d="M217,372 C203,304.8 231,254.4 217,204" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="210" stroke-dashoffset="210">
+      <animate attributeName="stroke-dashoffset" from="210" to="0" dur="0.8s" begin="0.18s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="215" cy="296" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 215 296)"/>
+      <ellipse cx="219" cy="258" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 219 258)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.68s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(217,204)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;-3.2;0;3.2;0" dur="4.8s" begin="1.08s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="0.88s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#b79cff" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ffd87a"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="171" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#b79cff" stroke-width="1.6"/>
+      <text x="217" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">Python</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.18s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: Power BI -->
+  <g>
+    <!-- stem grows -->
+    <path d="M354,372 C368,288.0 340,225.0 354,162" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="262" stroke-dashoffset="262">
+      <animate attributeName="stroke-dashoffset" from="262" to="0" dur="0.8s" begin="0.36s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="380" cy="278" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 380 278)"/>
+      <ellipse cx="328" cy="229" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 328 229)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.86s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(354,162)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;3.2;0;-3.2;0" dur="5.4s" begin="1.26s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.06s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffb38a" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ff7eb6"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="308" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#ffb38a" stroke-width="1.6"/>
+      <text x="354" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">Power BI</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.36s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: Pandas -->
+  <g>
+    <!-- stem grows -->
+    <path d="M491,372 C477,312.0 505,267.0 491,222" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="188" stroke-dashoffset="188">
+      <animate attributeName="stroke-dashoffset" from="188" to="0" dur="0.8s" begin="0.54s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="489" cy="304" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 489 304)"/>
+      <ellipse cx="493" cy="270" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 493 270)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.04s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(491,222)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;-3.2;0;3.2;0" dur="4.2s" begin="1.44s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.24s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fd0ff" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ffd87a"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="445" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#8fd0ff" stroke-width="1.6"/>
+      <text x="491" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">Pandas</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.54s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: scikit-learn -->
+  <g>
+    <!-- stem grows -->
+    <path d="M628,372 C642,298.4 614,243.20000000000002 628,188" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="230" stroke-dashoffset="230">
+      <animate attributeName="stroke-dashoffset" from="230" to="0" dur="0.8s" begin="0.72s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="654" cy="289" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 654 289)"/>
+      <ellipse cx="602" cy="247" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 602 247)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.22s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(628,188)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;3.2;0;-3.2;0" dur="4.8s" begin="1.62s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.42s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#8fe3c8" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ff9eb0"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="582" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#8fe3c8" stroke-width="1.6"/>
+      <text x="628" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">scikit-learn</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.72s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: PyTorch -->
+  <g>
+    <!-- stem grows -->
+    <path d="M765,372 C751,307.2 779,258.6 765,210" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="202" stroke-dashoffset="202">
+      <animate attributeName="stroke-dashoffset" from="202" to="0" dur="0.8s" begin="0.90s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="763" cy="299" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 763 299)"/>
+      <ellipse cx="767" cy="262" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 767 262)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.40s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(765,210)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;-3.2;0;3.2;0" dur="5.4s" begin="1.80s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.60s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ff9e7a" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#fff2c2"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="719" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#ff9e7a" stroke-width="1.6"/>
+      <text x="765" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">PyTorch</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.90s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: Excel -->
+  <g>
+    <!-- stem grows -->
+    <path d="M902,372 C916,292.0 888,232.0 902,172" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="250" stroke-dashoffset="250">
+      <animate attributeName="stroke-dashoffset" from="250" to="0" dur="0.8s" begin="1.08s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="928" cy="282" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 928 282)"/>
+      <ellipse cx="876" cy="236" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 876 236)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.58s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(902,172)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;3.2;0;-3.2;0" dur="4.2s" begin="1.98s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.78s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#9be38f" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ffd87a"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="856" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#9be38f" stroke-width="1.6"/>
+      <text x="902" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">Excel</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.08s" fill="freeze"/>
+    </g>
+  </g>
+  <!-- flower: NumPy -->
+  <g>
+    <!-- stem grows -->
+    <path d="M1039,372 C1025,309.6 1053,262.8 1039,216" fill="none" stroke="#7fc98a" stroke-width="5" stroke-linecap="round"
+          stroke-dasharray="195" stroke-dashoffset="195">
+      <animate attributeName="stroke-dashoffset" from="195" to="0" dur="0.8s" begin="1.26s" fill="freeze"/>
+    </path>
+    <!-- leaves -->
+    <g opacity="0">
+      <ellipse cx="1037" cy="302" rx="16" ry="7" fill="#9bd6a3" transform="rotate(28 1037 302)"/>
+      <ellipse cx="1041" cy="266" rx="14" ry="6" fill="#7fc98a" transform="rotate(-30 1041 266)"/>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="1.76s" fill="freeze"/>
+    </g>
+    <!-- flower head (sway loop wraps bloom) -->
+    <g transform="translate(1039,216)">
+      <animateTransform attributeName="transform" additive="sum" type="rotate"
+        values="0;-3.2;0;3.2;0" dur="4.8s" begin="2.16s" repeatCount="indefinite"/>
+      <g transform="scale(0)">
+        <animateTransform attributeName="transform" type="scale"
+          values="0;1.18;0.95;1" keyTimes="0;0.6;0.85;1" dur="0.7s" begin="1.96s" fill="freeze"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(0.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(45.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(90.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(135.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(180.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(225.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(270.0 0 0)" opacity="0.92"/>
+        <ellipse cx="0" cy="-15" rx="15" ry="27" fill="#ffc59e" transform="rotate(315.0 0 0)" opacity="0.92"/>
+        <circle cx="0" cy="0" r="11" fill="#ff7eb6"/>
+        <circle cx="0" cy="0" r="11" fill="none" stroke="#ffffff" stroke-opacity="0.55" stroke-width="2"/>
+      </g>
+    </g>
+    <!-- name tag -->
+    <g opacity="0">
+      <rect x="993" y="382" width="92" height="26" rx="13" fill="#ffffff" stroke="#ffc59e" stroke-width="1.6"/>
+      <text x="1039" y="399" text-anchor="middle" font-family="'Segoe UI',Verdana,sans-serif"
+            font-size="12.5" font-weight="700" fill="#7a4d68">NumPy</text>
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="2.26s" fill="freeze"/>
+    </g>
+  </g>
+
+  <!-- caption -->
+  <text x="34" y="46" font-family="'Segoe UI',Verdana,sans-serif" font-size="17" font-weight="800" fill="#c0539a">my little skill garden</text>
+  <text x="34" y="68" font-family="'Segoe UI',Verdana,sans-serif" font-size="12.5" fill="#9a6f88">every flower is a tool i actually build with — and it keeps growing</text>
+</svg>

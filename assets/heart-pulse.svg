@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" role="img" aria-label="Heartbeat data pulse">
+  <defs>
+    <linearGradient id="hpLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#ffb38a" stop-opacity="0"/>
+      <stop offset="12%"  stop-color="#ffb38a"/>
+      <stop offset="48%"  stop-color="#ff5fa2"/>
+      <stop offset="86%"  stop-color="#b79cff"/>
+      <stop offset="100%" stop-color="#b79cff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="hpGlow" x="-20%" y="-80%" width="140%" height="260%">
+      <feGaussianBlur stdDeviation="2.1" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- soft underlay line -->
+  <path d="M0,44 H250 l10,-7 l10,7 H360 l9,0 l7,-26 l9,46 l7,-32 l8,12 H650 l26,-12 l26,12 H900 l10,-7 l10,7 H1000 l8,-22 l9,40 l7,-26 l8,8 H1200"
+        fill="none" stroke="#ffe1ef" stroke-width="6" stroke-opacity=".7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- animated drawing line -->
+  <path d="M0,44 H250 l10,-7 l10,7 H360 l9,0 l7,-26 l9,46 l7,-32 l8,12 H650 l26,-12 l26,12 H900 l10,-7 l10,7 H1000 l8,-22 l9,40 l7,-26 l8,8 H1200"
+        fill="none" stroke="url(#hpLine)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+        filter="url(#hpGlow)" stroke-dasharray="2300" stroke-dashoffset="2300">
+    <animate attributeName="stroke-dashoffset" values="2300;0" dur="3.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- running pulse dot -->
+  <circle r="4.5" fill="#ffffff" stroke="#ff5fa2" stroke-width="2" filter="url(#hpGlow)">
+    <animateMotion dur="3.4s" repeatCount="indefinite"
+      path="M0,44 H250 l10,-7 l10,7 H360 l9,0 l7,-26 l9,46 l7,-32 l8,12 H650 l26,-12 l26,12 H900 l10,-7 l10,7 H1000 l8,-22 l9,40 l7,-26 l8,8 H1200"/>
+  </circle>
+
+  <!-- beating heart at the big spike -->
+  <g transform="translate(389,17)">
+    <g>
+      <path d="M0,3 C0,-3 -8,-3 -8,3 C-8,9 0,13 0,16 C0,13 8,9 8,3 C8,-3 0,-3 0,3 Z" fill="#ff5fa2"/>
+      <animateTransform attributeName="transform" type="scale" values="1;1.4;1;1.18;1" dur="1.15s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- floating sparkles -->
+  <g fill="#c9a8ff">
+    <circle cx="150" cy="22" r="2"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="20" r="2.2"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="26" r="2"><animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
