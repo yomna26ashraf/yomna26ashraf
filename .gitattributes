@@ -1,0 +1,4 @@
+# Keep the profile language stats clean: the snake generator and CI are tooling, not project code.
+.scripts/** linguist-vendored
+.github/** linguist-vendored
+*.mjs linguist-vendored
