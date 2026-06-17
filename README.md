@@ -198,17 +198,17 @@ the analytics work above.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=yomna26ashraf&show_icons=true&hide_border=true&bg_color=FFFAFD&title_color=FF5FA2&icon_color=B79CFF&text_color=8A5A76&rank_icon=github" alt="GitHub stats"/>
-<img height="165" src="https://streak-stats.demolab.com/?user=yomna26ashraf&hide_border=true&background=FFFAFD&stroke=FFD0E6&ring=FF5FA2&fire=FF8A4C&currStreakLabel=FF5FA2&sideLabels=8A5A76&dates=B08AA0&currStreakNum=7C5CFF&sideNums=8A5A76" alt="GitHub streak"/>
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=yomna26ashraf&show_icons=true&hide_border=true&bg_color=FFF0F7&title_color=FF5FA2&icon_color=B79CFF&text_color=8A5A76&rank_icon=github" alt="GitHub stats"/>
+<img height="165" src="https://streak-stats.demolab.com/?user=yomna26ashraf&hide_border=true&background=FFF0F7&stroke=FFD0E6&ring=FF5FA2&fire=FF8A4C&currStreakLabel=FF5FA2&sideLabels=8A5A76&dates=B08AA0&currStreakNum=7C5CFF&sideNums=8A5A76" alt="GitHub streak"/>
 
 </div>
 
 <div align="center">
-<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=yomna26ashraf&layout=compact&hide_border=true&bg_color=FFFAFD&title_color=FF5FA2&text_color=8A5A76&langs_count=8" alt="Top languages"/>
+<img height="170" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=yomna26ashraf&layout=compact&hide_border=true&bg_color=FFF0F7&title_color=FF5FA2&text_color=8A5A76&langs_count=8" alt="Top languages"/>
 </div>
 
 <div align="center">
-  <img width="98%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=yomna26ashraf&bg_color=FFFAFD&color=C0539A&line=FF5FA2&point=B79CFF&area=true&hide_border=true&custom_title=my%20recent%20activity"/>
+  <img width="98%" alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=yomna26ashraf&bg_color=FFF0F7&color=C0539A&line=FF5FA2&point=B79CFF&area=true&hide_border=true&custom_title=my%20recent%20activity"/>
 </div>
 
 <div align="center">
